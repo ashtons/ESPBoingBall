@@ -85,8 +85,8 @@ void drawShadow(TFT_eSprite &target, int centerX, int centerY)
 
 void setup()
 {
-    pinMode(TFT_BACKLIGHT_PIN, OUTPUT);
-    digitalWrite(TFT_BACKLIGHT_PIN, HIGH);
+    // pinMode(TFT_BACKLIGHT_PIN, OUTPUT);
+    // digitalWrite(TFT_BACKLIGHT_PIN, HIGH);
 
     tft.init();
     tft.setRotation(1);
