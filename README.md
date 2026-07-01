@@ -1,6 +1,7 @@
 # ESPBoingBall
 
 An Arduino sketch that renders a bouncing, spinning Boing Ball animation on an ESP32-driven TFT display. The animation is drawn directly with `TFT_eSPI`, using an off-screen sprite for smoother frame updates, simple gravity, wall bounces, shading, and a floor shadow.
+![Simple Animation](docs/animation.gif)
 
 ![ESPBoingBall preview](docs/preview.gif)
 
